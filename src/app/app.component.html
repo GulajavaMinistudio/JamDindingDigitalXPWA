@@ -1,3 +1,43 @@
-<h1>
-  {{title}}
-</h1>
+<html>
+<body>
+<div id="outer">
+
+  <div class="container animate-bottom">
+
+    <div class="row class-padding-top">
+
+      <div class="col-md-6 col-md-offset-3">
+
+        <div id="container" class="container">
+
+          <div class="row">
+
+            <!--komponen dengan isi jam-->
+            <div class="col-md-10 col-md-offset-1">
+
+              <h3 class="text-center class-text-jam-dinding">Jam Dinding</h3>
+
+              <app-jam-waktu (eventEmitDate)="setelTanggalSekarang()"></app-jam-waktu>
+
+              <h4 class="text-center class-text-jam-tanggal">{{tanggalSekarangIni}}</h4>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+

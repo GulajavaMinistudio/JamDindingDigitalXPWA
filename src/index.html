@@ -2,13 +2,29 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>JamDindingAnalog100</title>
+  <title>Jam Dinding</title>
+  <!--<base href="./">-->
   <base href="/">
 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
 </head>
 <body>
-  <app-root>Loading...</app-root>
+<app-root>
+  <div id="loader"></div>
+</app-root>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+      console.log('Service Worker registered');
+    }).catch(function(err) {
+      console.log('Service Worker registration failed: ', err);
+    });
+  }
+</script>
+
 </body>
 </html>
