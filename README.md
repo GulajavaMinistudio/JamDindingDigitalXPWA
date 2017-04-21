@@ -1,5 +1,18 @@
 # JamDindingAnalog100
 
+Aplikasi Jam Dinding dengan tambahan Progressive Web Apps sehingga bisa dipakai secara offline di perangkat komputer, ataupun di perangkat smartphone Android. Untuk perangkat Android, bisa dibuat shortcut aplikasi nya dengan bantuan browser Google Chrome. 
+
+
+Petunjuk tentang PWA dapat dilihat di :
+
+https://developers.google.com/web/progressive-web-apps/
+
+https://coryrylan.com/blog/fast-offline-angular-apps-with-service-workers
+
+https://github.com/GoogleChrome/sw-precache
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
